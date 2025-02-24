@@ -29,9 +29,9 @@ jobs:
     - name: Run Unit Test (2)
       run: |
         bazel test //:test_string_utils
-    - name: Run Linter
-      run: |
-        bazel test //:lint
     - name: Run Formatter
       run: |
         bazel test //:format
+    - name: Run Linter
+      run: |
+        bazel test //:lint
