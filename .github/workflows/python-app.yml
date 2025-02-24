@@ -28,10 +28,10 @@ jobs:
         pytest
     - name: Run Unit Test (1)
       run: |
-        bazel test //tests:test_math_utils
+        bazel test //:test_math_utils
     - name: Run Unit Test (2)
       run: |
-        bazel test //tests:test_string_utils
+        bazel test //:test_string_utils
     - name: Run Linter
       run: |
         bazel test //:lint
