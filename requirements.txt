@@ -1,0 +1,9 @@
+One of the requirements for this build to work is that it has to be done on my computer.
+
+Unfortunetely, the relative paths wouldn't work so I had to use absolute path.
+
+Also, I was having issues with pytest. It works fine when I run it, but not when I build it. 
+I think the build and run are using 2 different python versions, and the build is running in a virutal environment. 
+Needless to say, I couldn't fix the issue.
+
+And lint was telling me my score got a 0/10, but that makes no sense to me because their recommendations were very miniscule.

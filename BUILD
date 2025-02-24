@@ -1,13 +1,13 @@
 # Define Python Library for math utils
 py_library(
-  name = "math_utils"
+  name = "math_utils",
   srcs = ["src/math_utils.py"],
   visibility = ["//visibility:public"]
 )
 
 # Define Python Library for string utils
 py_library(
-  name = "string_utils"
+  name = "string_utils",
   srcs = ["src/string_utils.py"],
   visibility = ["//visibility:public"]
 )

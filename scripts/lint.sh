@@ -2,4 +2,4 @@
 set -e
 
 pip install pylint
-pylint src*.py tests/*.py --fail-under=8.0
+pylint /Users/bobbynewsome/Desktop/python-bazel-ci/tests /Users/bobbynewsome/Desktop/python-bazel-ci/src/*.py --fail-under=8.0

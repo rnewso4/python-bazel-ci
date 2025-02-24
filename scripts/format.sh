@@ -2,4 +2,4 @@
 set -e
 
 pip install black
-black --check src/ tests/
+black --check /Users/bobbynewsome/Desktop/python-bazel-ci/src /Users/bobbynewsome/Desktop/python-bazel-ci/tests

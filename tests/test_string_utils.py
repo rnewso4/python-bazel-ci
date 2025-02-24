@@ -1,7 +1,6 @@
-import pytest
 import sys
 sys.path.append('../PYTHON-BAZEL-CI')
-from src.string_utils import *  
+from src.string_utils import *
 
 def test_reverse_string():
     assert reverse_string("hello") == "olleh"
@@ -22,3 +21,7 @@ def test_count_vowels():
     assert count_vowels("") == 0
     assert count_vowels("12345") == 0
     assert count_vowels("a") == 1
+
+test_reverse_string()
+test_is_palindrome()
+test_count_vowels()
